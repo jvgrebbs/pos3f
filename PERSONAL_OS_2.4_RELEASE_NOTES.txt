@@ -1,0 +1,20 @@
+PERSONAL OS 2.4 — ADAPTIVE ENGINE
+
+Implemented:
+- Explainable adaptive recommendation engine.
+- Strength progression recommendations based on actual set/repetition completion.
+- Conservative +5 lb increase when all programmed reps are completed.
+- Repeat recommendation for near-completion.
+- Small load reduction after repeated underperformance.
+- Running progression based on actual duration/distance completion.
+- Seven-day execution adherence signal.
+- Recommendations stored separately from immutable program definitions.
+- Program-derived execution remains the source of actual performance.
+- Adaptive recommendations are preview/recommendation only; they do not silently mutate the program.
+- Existing 2.3 Program Engine retained.
+- Existing 2.2 reliability, backup, restore, validation and migration retained.
+
+Design principle:
+Program = what is planned.
+Execution = what happened.
+Adaptive Engine = what should be considered next.

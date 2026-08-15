@@ -1,0 +1,22 @@
+{
+  "name": "Personal Operating System 3.0 \u2014 Date UI Fixed",
+  "short_name": "Personal OS 3",
+  "description": "Unified Personal Operating System with state, program, execution and adaptive engines.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#101317",
+  "theme_color": "#19a7ff",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

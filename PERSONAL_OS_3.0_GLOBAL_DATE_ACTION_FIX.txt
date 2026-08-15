@@ -1,0 +1,31 @@
+PERSONAL OS 3.0 — GLOBAL DATE / ACTION FIX
+
+Root causes addressed:
+1. The previous 3.0 CSS hid every element after #pos30App. That also hid
+   execution/data/program overlays, so valid buttons could appear nonfunctional.
+2. The 3.0 selected date was not propagated consistently to all legacy
+   execution/rendering surfaces.
+3. The date navigator existed primarily on Today, so changing dates did not
+   provide the same control context on domain pages.
+
+Fixes:
+- Legacy base shells are hidden explicitly, while functional overlays remain visible.
+- One global selected date now synchronizes:
+    selected
+    strengthLogDate
+    strength date picker
+    3.0 selected-date storage
+    legacy selected-date storage
+    dashboard
+    fitness
+    nutrition
+    education
+    tasks
+    progress
+    execution
+    strength log
+- Previous/Next/Today and Day/Date now work from the shared date state.
+- Day/Date navigator is rendered on every 3.0 domain page.
+- Legacy date selection entry points are routed through the same global date controller.
+- Navigation has a delegated click fallback.
+- Execution/program/data overlays are explicitly allowed above the 3.0 shell.

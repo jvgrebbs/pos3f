@@ -1,0 +1,43 @@
+PERSONAL OS 3.0 — UNIFIED ARCHITECTURE
+
+3.0 establishes a unified state model:
+
+PROGRAM
+  What should happen.
+
+SCHEDULE
+  When it should happen.
+
+EXECUTION
+  What actually happened.
+
+HISTORY
+  Immutable historical records.
+
+STATE
+  Synthesized current position across domains.
+
+ADAPTATION
+  Recommendations derived from actual performance.
+
+The state engine builds a daily and seven-day state snapshot without mutating
+the underlying program definition.
+
+Implemented in 3.0:
+- Unified state snapshot model.
+- Cross-domain daily state.
+- Seven-day adherence signal.
+- Program/schedule/execution separation at the presentation/state layer.
+- Unified activity start model.
+- Plan-vs-actual domain summary.
+- State-aware Today command center.
+- Focused domain workspaces.
+- Global Start action.
+- Existing 2.4 adaptive engine retained.
+- Existing data, backup, migration and PWA layers retained.
+
+Deferred to later 3.x hardening:
+- Provider-specific cloud synchronization.
+- Full event-sourcing implementation.
+- Automatic program mutation.
+- Fully autonomous catch-up scheduling.

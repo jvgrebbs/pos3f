@@ -1,0 +1,41 @@
+PERSONAL OS 2.0 — DOMAIN PAGE UI
+
+Redesigned the primary UI around separate domain pages:
+
+- Today
+- Fitness
+- Nutrition
+- Education
+- Tasks
+- Progress
+
+Fitness page:
+- Weight
+- Strength volume
+- Running
+- Today's fitness
+- 12-week program view
+- Quick entry
+
+Nutrition page:
+- Meal completion
+- Dinner
+- Today's meals
+- Calculated grocery list
+- Quick meal entry
+
+Education page:
+- Network+ week
+- Study completion
+- Today's study
+- 8-week certification roadmap
+- Quick study completion
+
+Tasks page:
+- Household tasks for today
+- Household tasks for the current week
+
+Today remains the cross-domain dashboard.
+Progress remains cross-domain only.
+Data/backup remains outside the daily domain navigation.
+Existing underlying engines and legacy UI remain retained for regression compatibility.

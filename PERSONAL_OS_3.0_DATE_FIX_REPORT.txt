@@ -1,0 +1,17 @@
+PERSONAL OS 3.0 — DATE FUNCTION FIX
+
+JavaScript syntax: PASS
+Canonical date routing: PASS
+Date navigator routing: PASS
+selectedDateValue references remaining: 5 (initialization/fallback only)
+Date self-test installed: PASS
+
+ROOT CAUSE:
+The 3.0 renderer had its own selectedDateValue. The navigation buttons were correctly changing POS3Core.state.date, but the renderer continued reading selectedDateValue. Therefore the date appeared not to move.
+
+FIX:
+3.0 rendering now reads the date from POS3Core.getDate().
+Date changes now write through POS3Core.setDate().
+Previous/Next now use POS3Core.moveDate().
+Today now uses POS3Core.today().
+Strength and legacy selected state continue to synchronize from Core.

@@ -1,0 +1,35 @@
+FINAL UX TEST PLAN
+
+DAILY PLANNER
+[ ] Timeline is readable
+[ ] Current activity is visually prominent
+[ ] Completed activities are visually distinct
+[ ] Upcoming activities are distinct
+[ ] Activity action opens correct workflow
+
+WORKOUT
+[ ] Start Workout opens full-screen execution view
+[ ] Correct program/week/exercise is shown
+[ ] Weight field uses numeric keyboard on mobile
+[ ] Reps field uses numeric keyboard on mobile
+[ ] Save Set stores actual performance
+[ ] Next Set advances correctly
+[ ] Next Exercise advances correctly
+[ ] Progress indicator updates
+[ ] Workout completion is recorded
+[ ] Adaptive handoff opens
+
+ACCESSIBILITY / USABILITY
+[ ] Touch targets are large enough
+[ ] Focus outline is visible
+[ ] Graphite text contrast remains readable
+[ ] Electric blue is used primarily for interaction
+[ ] Status colors are semantic
+[ ] Mobile layout remains usable
+
+REGRESSION
+[ ] Program Engine remains available
+[ ] Adaptive Engine remains available
+[ ] Data Center remains available
+[ ] Backup/restore remains available
+[ ] PWA shell remains available

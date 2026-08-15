@@ -1,0 +1,20 @@
+PERSONAL OS 2.4 ADAPTIVE RULES
+
+STRENGTH
+- 100% programmed reps: recommend +5 lb.
+- 90–99%: repeat current load.
+- <90%: repeat current load.
+- If recent history contains repeated underperformance: recommend -5 lb.
+- Recommendations are conservative and explainable.
+- The engine does not automatically change the program definition.
+
+RUNNING
+- >=95% of target duration/distance: recommend +5 minutes.
+- <90% completion: repeat.
+- 90–94%: repeat.
+- Pace/intensity adaptation is deferred until more history is available.
+
+GENERAL
+- Recommendations are stored as adaptiveRecommendation records.
+- Actual execution remains immutable historical data.
+- Program definitions remain the source of planned intent.

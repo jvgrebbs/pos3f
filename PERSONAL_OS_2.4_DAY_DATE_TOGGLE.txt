@@ -1,0 +1,11 @@
+PERSONAL OS 2.4 — DAY / DATE TOGGLE
+
+Implemented:
+- Toggle between DAY and DATE display modes on the Today planner.
+- DAY mode emphasizes the weekday (e.g. Saturday).
+- DATE mode emphasizes the calendar date (e.g. Aug 15, 2026).
+- Previous/next day controls operate in either mode.
+- Both modes use the same selected date internally.
+- The selected date remains synchronized with program week and daily activities.
+- Display preference persists locally.
+- No program, execution, adaptive, or historical data is changed by toggling.

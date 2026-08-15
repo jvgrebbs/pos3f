@@ -1,0 +1,27 @@
+PERSONAL OPERATING SYSTEM 2.0
+Build: 2.0.0
+
+Implemented in this build:
+1.0.1 Regression/stabilization foundation
+1.1 IndexedDB canonical data layer with legacy POS localStorage migration
+1.2 Unified calendar/date/week engine used by 2.0 views
+1.3 Actual-vs-planned execution engine
+1.4 Fitness progression summary and quick-entry capture
+1.5 Calculated grocery foundation from meal -> recipe -> ingredient mapping
+1.6 On-device reminder/notification foundation
+1.7 Progress/analytics foundation
+1.8 Sync-ready architecture retained from 1.0
+2.0 Integrated local-first release
+
+Important architecture:
+- IndexedDB is now the canonical 2.0 data layer.
+- Existing localStorage features are retained for compatibility.
+- Quick entries write directly to IndexedDB.
+- Full 2.0 database export is available.
+- Cloud provider credentials are not embedded.
+- Existing local backup/sync foundations remain available.
+
+Design principle:
+PLAN -> EXECUTE -> CAPTURE ACTUAL -> COMPARE -> PROGRESS
+
+The application remains local-first and offline-capable.

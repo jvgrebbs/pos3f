@@ -1,0 +1,56 @@
+PERSONAL OS 2.4 — UI/UX TEST REPORT
+
+TEST ENVIRONMENT
+- Chromium headless
+- Mobile viewport: 390x844
+- Desktop viewport: 1440x900
+- Test harness loaded the application HTML directly; browser security prevents localStorage on an opaque test origin.
+
+PASSED
+[PASS] Application title loads.
+[PASS] Clean UI shell renders.
+[PASS] Six primary navigation items render.
+[PASS] Today is the initial view.
+[PASS] Today planner/summary view renders.
+[PASS] Fitness focused view renders.
+[PASS] Nutrition focused view renders.
+[PASS] Education focused view renders.
+[PASS] Tasks focused view renders.
+[PASS] Progress focused view renders.
+[PASS] Active navigation state changes correctly.
+[PASS] Universal Start menu opens.
+[PASS] Universal Start menu contains four execution actions.
+[PASS] Programs management modal opens and is visible.
+[PASS] Programs modal Close control is visible/usable after UI patch.
+[PASS] Data management modal opens and is visible.
+[PASS] Data modal Close control is visible/usable after UI patch.
+[PASS] Fitness Start Workout opens an execution modal.
+[PASS] Mobile viewport has no horizontal overflow (390px content width).
+[PASS] Desktop viewport renders without the mobile overflow condition.
+
+BUG FOUND AND FIXED
+- The clean-shell CSS originally hid all DOM siblings after the new UI shell.
+- The Programs/Data modals were siblings, so their own display state could be set to open but they remained hidden.
+- CSS was corrected to preserve the application modal/overlay classes while hiding the legacy page body.
+- Retest confirms both Programs and Data modals are visible and have a usable Close button.
+
+TEST-HARNESS LIMITATION
+- Direct/opaque document testing produced a browser security error for localStorage.
+- The application relies on localStorage/IndexedDB and should be tested from its actual PWA/web origin for full persistence testing.
+- The reported "Cannot access 'START' before initialization" errors occurred in the opaque-origin harness alongside the localStorage security failure. They were not observed as navigation failures: all tested UI views and execution modal interactions completed successfully.
+
+NOT YET VERIFIED END-TO-END IN THIS ENVIRONMENT
+[ ] Persistent IndexedDB/localStorage writes across reloads
+[ ] Backup export/restore using a real origin
+[ ] PWA service-worker installation/update lifecycle
+[ ] Actual device install behavior
+[ ] Cloud synchronization
+
+OVERALL
+UI/UX CORE: PASS
+Focused navigation: PASS
+Planner view: PASS
+Mobile layout: PASS
+Management modal visibility: PASS AFTER FIX
+Execution entry: PASS
+Persistence: REQUIRES REAL WEB/PWA ORIGIN TEST

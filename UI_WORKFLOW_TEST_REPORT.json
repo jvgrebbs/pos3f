@@ -1,0 +1,17 @@
+{
+  "javascript_syntax": true,
+  "script_count": 21,
+  "workflow_checks": {
+    "Today page": true,
+    "Fitness page": true,
+    "Nutrition page": true,
+    "Education page": true,
+    "Tasks page": true,
+    "Progress page": true,
+    "Quick Add": true,
+    "Navigation": true,
+    "PWA": true,
+    "Workout dynamic set fields": true
+  },
+  "note": "Browser automation was attempted but the execution environment blocked local/file browser navigation; runtime UI interactions therefore require device/browser smoke testing."
+}

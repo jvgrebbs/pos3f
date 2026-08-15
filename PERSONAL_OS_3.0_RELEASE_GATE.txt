@@ -1,0 +1,27 @@
+PERSONAL OS 3.0 RELEASE GATE
+
+STATIC / ARCHITECTURE
+[PASS] Unified State Engine
+[PASS] Program/Schedule/Execution separation
+[PASS] Day/Date navigation
+[PASS] Domain navigation
+[PASS] Graphite + Electric Blue UI
+[PASS] Event bus
+[PASS] Data validation layer
+[PASS] Safe snapshot layer
+[PASS] Search layer
+[PASS] Health diagnostics
+
+RUNTIME REQUIRED BEFORE FINAL PRODUCTION FREEZE
+[ ] Real browser UI click-through
+[ ] localStorage persistence
+[ ] IndexedDB persistence
+[ ] Service worker lifecycle
+[ ] Offline operation
+[ ] PWA installation
+[ ] Android/Samsung behavior
+[ ] Backup export/import
+[ ] Recovery workflow
+[ ] Full regression after runtime test
+
+3.0 SHOULD BE FROZEN ONLY AFTER THE RUNTIME GATE PASSES.

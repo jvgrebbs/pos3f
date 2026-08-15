@@ -1,0 +1,35 @@
+PERSONAL OS 3.0 — ARCHITECTURE TEST
+
+Canonical State
+[ ] POS3Core exists
+[ ] POS3Core.state.date is the only canonical selected date
+[ ] POS3Core.state.view owns current view
+[ ] Legacy selected is synchronized from Core
+
+Date Adapters
+[ ] pos21Date resolves from Core
+[ ] pos24Date resolves from Core
+[ ] pos23Week uses Core date by default
+[ ] pos23ProgramsForDate uses Core date by default
+[ ] pos21SelectDate routes through Core
+[ ] posUISelectDate routes through Core
+[ ] posUIToday routes through Core
+[ ] pos23JumpWeek routes through Core
+[ ] Previous/Next/Today route through Core
+
+Data
+[ ] IndexedDB remains canonical
+[ ] pos2Put is observable through Core
+[ ] Data changes emit DATA_CHANGED
+[ ] UI refreshes after data changes
+
+Events
+[ ] DATE_CHANGED emitted
+[ ] DATA_CHANGED emitted
+[ ] VIEW_CHANGED emitted
+[ ] CORE_READY emitted
+
+Safety
+[ ] Program definitions are not mutated by date navigation
+[ ] Recovery remains non-destructive
+[ ] Legacy functions remain available as adapters

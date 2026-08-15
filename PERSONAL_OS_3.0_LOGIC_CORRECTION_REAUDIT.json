@@ -1,0 +1,52 @@
+{
+  "passed": 8,
+  "total": 9,
+  "checks": [
+    {
+      "name": "All JavaScript parses",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "No hardcoded strength test date",
+      "status": "FAIL",
+      "detail": ""
+    },
+    {
+      "name": "Core synchronizes lexical selected",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Core startup synchronizes lexical selected",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Legacy DD shift routes to Core",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Legacy DD today routes to Core",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Legacy strength picker routes to Core",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Canonical Core exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "No unresolved pos* refs",
+      "status": "PASS",
+      "detail": ""
+    }
+  ],
+  "syntax_errors": []
+}

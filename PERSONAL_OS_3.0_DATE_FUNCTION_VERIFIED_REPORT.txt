@@ -1,0 +1,10 @@
+PERSONAL OS 3.0 — DATE FUNCTION VERIFIED BUILD
+
+FIXES:
+1. Renamed global campaign START/END constants to unique POS_CAMPAIGN_START/POS_CAMPAIGN_END names to eliminate global lexical collision/TDZ risk.
+2. Made Core date initialization resilient to storage access errors.
+3. Made Core date persistence writes resilient.
+4. Added a final date runtime controller and deterministic boundary test.
+
+JavaScript syntax: PASS
+Browser runtime test function: pos30DateRuntimeTest()

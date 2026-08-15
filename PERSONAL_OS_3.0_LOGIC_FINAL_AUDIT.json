@@ -1,0 +1,69 @@
+{
+  "result": "PASS",
+  "passed": 15,
+  "total": 15,
+  "checks": [
+    {
+      "name": "JavaScript syntax",
+      "status": "PASS"
+    },
+    {
+      "name": "No hardcoded strength-log date",
+      "status": "PASS"
+    },
+    {
+      "name": "Canonical Core exists",
+      "status": "PASS"
+    },
+    {
+      "name": "Canonical date owner",
+      "status": "PASS"
+    },
+    {
+      "name": "Canonical data facade",
+      "status": "PASS"
+    },
+    {
+      "name": "Central event bus",
+      "status": "PASS"
+    },
+    {
+      "name": "Date navigation routes through Core",
+      "status": "PASS"
+    },
+    {
+      "name": "Today routes through Core",
+      "status": "PASS"
+    },
+    {
+      "name": "Legacy selected synchronized",
+      "status": "PASS"
+    },
+    {
+      "name": "Strength date synchronized",
+      "status": "PASS"
+    },
+    {
+      "name": "Legacy date-picker routes through Core",
+      "status": "PASS"
+    },
+    {
+      "name": "Legacy strength picker routes through Core",
+      "status": "PASS"
+    },
+    {
+      "name": "No unresolved pos* refs",
+      "status": "PASS"
+    },
+    {
+      "name": "No duplicate DOM IDs",
+      "status": "PASS"
+    },
+    {
+      "name": "Architecture self-test exposed",
+      "status": "PASS"
+    }
+  ],
+  "syntax_errors": [],
+  "unresolved_pos_refs": []
+}

@@ -1,0 +1,68 @@
+{
+  "result": "PASS",
+  "checks": [
+    {
+      "name": "JavaScript syntax",
+      "status": "PASS"
+    },
+    {
+      "name": "No unresolved POS references",
+      "status": "PASS"
+    },
+    {
+      "name": "No duplicate DOM IDs",
+      "status": "PASS"
+    },
+    {
+      "name": "Canonical date owner",
+      "status": "PASS"
+    },
+    {
+      "name": "Canonical data owner",
+      "status": "PASS"
+    },
+    {
+      "name": "Canonical event owner",
+      "status": "PASS"
+    },
+    {
+      "name": "Status contract",
+      "status": "PASS"
+    },
+    {
+      "name": "Recovery contract",
+      "status": "PASS"
+    },
+    {
+      "name": "Date re-entry guard",
+      "status": "PASS"
+    },
+    {
+      "name": "Refresh coalescing",
+      "status": "PASS"
+    },
+    {
+      "name": "Data read cache",
+      "status": "PASS"
+    },
+    {
+      "name": "Central action router",
+      "status": "PASS"
+    },
+    {
+      "name": "Security helper",
+      "status": "PASS"
+    },
+    {
+      "name": "Canonical date migration",
+      "status": "PASS"
+    },
+    {
+      "name": "PWA cache updated",
+      "status": "PASS"
+    }
+  ],
+  "syntax_errors": [],
+  "unresolved_pos_refs": [],
+  "legacy_inline_handler_count": 158
+}

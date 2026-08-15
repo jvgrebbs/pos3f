@@ -1,0 +1,20 @@
+PERSONAL OPERATING SYSTEM — INTEGRATION 1.0
+
+This release integrates the completed Phase 1–10 work into a single application shell.
+
+Core integration:
+- Unified Today / Plan / Execute / Progress / Data navigation.
+- Master calendar for the selected week.
+- Single date/week calculation for integrated views.
+- Planning and execution separation.
+- Actual-vs-planned status aggregation.
+- Fitness, nutrition, education, and household domains surfaced through the master calendar.
+- Progress dashboard aggregation.
+- Data hub for backup/sync status.
+- Existing feature modules remain available below the integrated shell.
+- Local-first operation retained.
+- No cloud provider credentials embedded.
+- Existing backup and sync foundations preserved.
+
+Integration release is intentionally additive: existing feature modules are retained
+so functionality can be regression-tested before later cleanup/removal.

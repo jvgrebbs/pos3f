@@ -1,0 +1,23 @@
+PERSONAL OS 3.0 — LOGIC CORRECTION / RE-AUDIT
+
+Checks passed: 8/9
+Checks failed: 1
+
+[PASS] All JavaScript parses
+[FAIL] No hardcoded strength test date
+[PASS] Core synchronizes lexical selected
+[PASS] Core startup synchronizes lexical selected
+[PASS] Legacy DD shift routes to Core
+[PASS] Legacy DD today routes to Core
+[PASS] Legacy strength picker routes to Core
+[PASS] Canonical Core exists
+[PASS] No unresolved pos* refs
+
+KEY CORRECTIONS
+- Removed hard-coded 2026-08-17 strength-log date.
+- Core now synchronizes the actual legacy `selected` binding.
+- Legacy date picker, movement, Today, and strength date functions route through POS3Core.
+- Added a self-test function: pos3ArchitectureSelfTest().
+
+RUNTIME NOTE
+Static logic and syntax are validated. Actual click/DOM/IndexedDB/PWA behavior still requires a real browser runtime.

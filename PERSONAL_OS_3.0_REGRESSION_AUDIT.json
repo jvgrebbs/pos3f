@@ -1,0 +1,544 @@
+{
+  "result": "ISSUES_FOUND",
+  "issue_count": 131,
+  "issues": [
+    {
+      "category": "STRUCTURE",
+      "item": "single_html_entry"
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos21CloseData("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos21CloseDrawer("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos21CloseModal("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos21CompleteMeal("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos21CompleteStudy("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos21CompleteTask("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos21Completion("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos21Date("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos21ExportExecutionCSV("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos21Id("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos21Now("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos21OpenCalendar("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos21OpenData("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos21OpenExecution("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos21OpenMeal("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos21OpenRun("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos21OpenStrength("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos21OpenStudy("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos21OpenTask("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos21OpenWeight("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos21Progress("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos21Quick("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos21ReadExecutions("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos21RefreshUI("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos21RenderCalendar("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos21RenderData("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos21RestorePrompt("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos21SaveMealUI("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos21SaveRun("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos21SaveRunUI("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos21SaveStrengthSet("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos21SaveStudyUI("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos21SaveTaskUI("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos21SaveWeight("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos21SaveWeightUI("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos21SaveWorkout("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos21SelectDate("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos21WeekStart("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos21WriteExecution("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos22All("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos22Canonicalize("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos22ChooseRestore("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos22CloseBackup("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos22CloseData("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos22CloseMigration("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos22CreateSnapshot("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos22Escape("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos22ExportSnapshot("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos22GetMeta("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos22Hash("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos22Health("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos22Migrate("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos22Now("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos22OpenData("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos22OpenMigration("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos22Put("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos22RenderData("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos22RestoreFile("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos22RunMigration("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos22RunValidation("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos22SaveMeta("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos22ScheduleSnapshot("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos22Validate("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos23Activity("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos23ActivityHtml("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos23Close("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos23CompleteMeal("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos23ExerciseRows("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos23InstallPrograms("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos23Iso("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos23JumpWeek("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos23MealPlanForToday("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos23MealRow("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos23Open("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos23Program("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos23ProgramCalendar("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos23ProgramRecords("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos23ProgramsForDate("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos23Render("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos23RunPlanForToday("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos23RunRow("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos23SaveProgramStrength("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos23SaveRun("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos23SaveStudy("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos23SelectProgram("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos23StrengthPlanForToday("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos23StudyPlanForToday("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos23StudyRow("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos23TodayPlan("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos23Week("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos24Adherence("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos24ApplyRecommendationPreview("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos24BuildRunRecommendation("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos24BuildStrengthRecommendations("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos24Clamp("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos24Close("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos24Date("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos24Executions("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos24ExerciseHistory("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos24NextTarget("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos24Open("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos24Pct("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos24RecommendationForToday("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos24Render("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos24RoundWeight("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos24RunRecommendation("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos24SaveRecommendation("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos24StrengthHistory("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos24StrengthRecommendation("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos2All("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos2DataStatus("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos2Delete("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos2DomainSummary("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos2ExportFullDatabase("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos2Get("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos2InitDB("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos2MetaGet("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos2MetaPut("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos2OpenDB("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos2Put("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos30CloseStart("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos30GoToday("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos30NextDay("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos30OpenData("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos30OpenPrograms("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos30PreviousDay("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos30SetDateMode("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos30Show("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos30Start("
+    },
+    {
+      "category": "REFERENCE",
+      "item": "pos30StartNext("
+    }
+  ],
+  "scope": "Personal Operating System 3.0 Date Navigation Fixed",
+  "static_checks": {
+    "single_html_entry": false,
+    "manifest_present": true,
+    "service_worker_present": true,
+    "icons_present": true,
+    "3_0_shell_present": true,
+    "3_0_state_engine_present": true,
+    "3_0_date_engine_present": true,
+    "date_controls_present": true,
+    "today_control_present": true,
+    "legacy_hidden_rule_present": true
+  },
+  "runtime_limitation": "Browser-origin-dependent APIs require actual PWA/web-origin runtime testing."
+}

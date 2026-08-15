@@ -1,0 +1,17 @@
+PERSONAL OS 2.1 — EXECUTION ENGINE
+
+Implemented:
+- Unified canonical execution records on IndexedDB.
+- Common Plan -> Execute -> Capture Actual -> Progress workflow.
+- Fitness set-by-set execution.
+- Running execution with distance/duration/pace.
+- Body-weight execution records.
+- Nutrition meal completion.
+- Education study-session completion.
+- Household task completion.
+- Cross-domain daily execution calculation.
+- Unified calendar view.
+- Data Center with health, full JSON export, execution CSV export, and JSON restore.
+- Offline/PWA shell retained.
+- Existing 2.0 UI and legacy engines retained for compatibility.
+- Cloud sync intentionally deferred until local data integrity and restore are stable.

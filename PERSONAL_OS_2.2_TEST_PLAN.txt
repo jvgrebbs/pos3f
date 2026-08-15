@@ -1,0 +1,38 @@
+PERSONAL OS 2.2 TEST PLAN
+
+DATA INTEGRITY
+[ ] App loads
+[ ] Existing records remain readable
+[ ] Schema migration is idempotent
+[ ] Missing IDs/types/domains are detected
+[ ] Duplicate IDs are detected
+[ ] Future schema records are detected
+
+BACKUP
+[ ] Snapshot creation
+[ ] Automatic snapshot after writes
+[ ] JSON export
+[ ] JSON restore
+[ ] Backup format validation
+[ ] Restore provenance/hash recorded
+
+EXECUTION REGRESSION
+[ ] Strength records remain readable
+[ ] Run records remain readable
+[ ] Weight records remain readable
+[ ] Meal records remain readable
+[ ] Study records remain readable
+[ ] Task records remain readable
+[ ] Progress reads records
+
+UI
+[ ] Data Center opens
+[ ] Migration Center opens
+[ ] Validation runs
+[ ] Backup export works
+[ ] Restore picker works
+
+PWA
+[ ] Manifest remains valid
+[ ] Service worker remains present
+[ ] Offline shell remains present

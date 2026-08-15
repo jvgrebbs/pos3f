@@ -1,0 +1,18 @@
+PERSONAL OS 3.0 — DATE NAVIGATION FIX
+
+Issue:
+The 3.0 command-center shell intentionally hid the legacy 2.x presentation layer,
+including the previous Day/Date controls. The underlying date selection remained
+available in parts of the legacy engine, but the visible 3.0 UI no longer exposed
+the controls.
+
+Fix:
+- Added a native 3.0 date navigator.
+- 3.0 now owns the selected calendar date.
+- DAY and DATE display modes work independently of the legacy UI.
+- Previous day and next day controls update the selected date.
+- TODAY returns directly to the system's current date.
+- Selected date persists locally.
+- Program week, planner, state engine and domain summaries resolve against the
+  selected date.
+- Date navigation does not modify program definitions or execution history.

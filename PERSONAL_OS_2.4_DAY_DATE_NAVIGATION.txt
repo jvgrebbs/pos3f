@@ -1,0 +1,11 @@
+PERSONAL OS 2.4 — DAY / DATE NAVIGATION
+
+Implemented:
+- Toggle between DAY and DATE display modes.
+- Previous-day and next-day navigation.
+- A dedicated TODAY button is always available after navigating away.
+- TODAY becomes the active/disabled state when already viewing the current date.
+- Returning to Today restores the current system date.
+- Day/date display preference remains stored locally.
+- Navigation changes only the selected calendar date; it does not modify program definitions, execution history, or adaptive records.
+- Program week and daily planner content update with the selected date.

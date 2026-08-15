@@ -1,0 +1,39 @@
+PERSONAL OS 3.0 — CORE ARCHITECTURE CONSOLIDATION
+
+Purpose:
+Correct the primary architecture risk identified by the function audit:
+multiple application generations were maintaining overlapping state and
+multiple date entry points.
+
+Canonical ownership introduced:
+- POS3Core.state.date — one selected application date
+- POS3Core.state.view — one current application view
+- POS3Core.data — canonical IndexedDB data facade
+- POS3Core.events — centralized application event bus
+- POS3Core.diagnostics — non-fatal error collection
+- POS3Core.adapters — explicit compatibility boundary for legacy engines
+
+Architecture rule:
+Legacy 2.x/2.1/2.2/2.3/2.4 functions remain available for compatibility,
+but they no longer own the application's selected date. Date entry points
+terminate at POS3Core.setDate().
+
+Data rule:
+IndexedDB through pos2Put/pos2All remains the canonical application data
+store. Legacy localStorage helpers are compatibility mechanisms, not a
+second authoritative database.
+
+Event rule:
+Data changes and date changes emit events so dependent UI can refresh
+without direct cross-module coupling.
+
+Program rule:
+Program definitions remain immutable. A date change selects a different
+program occurrence; it does not mutate the underlying program.
+
+Recovery rule:
+Snapshots remain non-destructive. No automatic restore overwrites user data.
+
+This consolidation intentionally does not delete legacy code. It creates
+a controlled adapter boundary so the old engines can be retired incrementally
+without breaking existing stored data or execution workflows.

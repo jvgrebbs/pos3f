@@ -1,0 +1,37 @@
+PERSONAL OS 2.3 PROGRAM MODEL
+
+Program
+  id
+  domain
+  name
+  weeks
+  days[]
+
+Day
+  day
+  name
+  type
+  domain-specific targets
+
+Strength activity
+  exercises[]
+    name
+    sets
+    reps
+    targetWeight
+
+Run activity
+  duration
+  distance
+  intensity
+
+Meal activity
+  meals[]
+
+Study activity
+  minutes
+  topic
+
+The Program Engine owns planned activity definitions.
+The Execution Engine owns actual results.
+The Adaptive Engine (2.4) will use actual results to modify future targets.

@@ -1,0 +1,17 @@
+PERSONAL OS 2.3 — PROGRAM ENGINE
+
+Implemented:
+- Data-driven program definitions.
+- Program -> Week -> Day -> Activity hierarchy.
+- 12-week strength program definition.
+- 12-week running program definition.
+- 12-week nutrition program definition.
+- 8-week Network+ education program definition.
+- Program Engine UI with current week and program map.
+- Program-derived strength execution with set-by-set inputs.
+- Program-derived running execution with planned duration/intensity.
+- Program-derived meal execution.
+- Program-derived study execution.
+- Program definitions stored in the canonical data layer.
+- Existing 2.2 reliability, backup, restore, migration and validation layers retained.
+- Adaptive progression is intentionally deferred to 2.4.

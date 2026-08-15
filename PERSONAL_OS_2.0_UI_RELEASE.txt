@@ -1,0 +1,18 @@
+PERSONAL OS 2.0 — UI RELEASE
+
+Implemented:
+- Mobile-first app shell.
+- Compact sticky header.
+- Primary navigation: Today / Plan / Execute / Progress.
+- Bottom navigation for mobile.
+- More menu for Data/Backup and Notifications.
+- Today as primary landing screen.
+- Next Up prominent card.
+- Compact daily execution list.
+- Fitness / Nutrition / Network+ / Household summary modules.
+- Plan weekly calendar.
+- Execute-focused capture screen.
+- Progress dashboard.
+- Reduced visual clutter and duplicate dashboard cards.
+- Legacy functional modules retained behind the new UI for compatibility.
+- Existing PWA/offline/data engines preserved.

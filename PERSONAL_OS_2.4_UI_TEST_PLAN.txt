@@ -1,0 +1,33 @@
+UI CLEAN PASS TEST PLAN
+
+NAVIGATION
+[ ] Today opens planner view
+[ ] Fitness opens fitness-only view
+[ ] Nutrition opens nutrition-only view
+[ ] Education opens education-only view
+[ ] Tasks opens task-only view
+[ ] Progress opens progress-only view
+[ ] Active navigation state is visible
+
+TODAY
+[ ] Date and program week visible
+[ ] Planned activities visible
+[ ] Status visible
+[ ] Summary KPIs visible
+[ ] Start Next Activity works
+
+DOMAIN UX
+[ ] Each page has one primary action
+[ ] Secondary controls are visually quieter
+[ ] Program details are summarized
+[ ] Adaptive recommendations remain accessible
+
+MANAGEMENT
+[ ] Programs remains separate from daily execution
+[ ] Data remains separate from daily execution
+
+MOBILE
+[ ] Bottom navigation usable
+[ ] Cards collapse correctly
+[ ] Start FAB remains accessible
+[ ] Planner remains readable

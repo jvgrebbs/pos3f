@@ -1,0 +1,19 @@
+PERSONAL OS 2.1 TEST PLAN
+
+[ ] App loads
+[ ] Today and domain pages load
+[ ] Calendar opens and selects dates
+[ ] Data Center opens
+[ ] Strength sets save
+[ ] Workout completion saves
+[ ] Run saves
+[ ] Weight saves
+[ ] Meal completion saves
+[ ] Study session saves
+[ ] Task completion saves
+[ ] Progress reads execution records
+[ ] Full JSON export works
+[ ] Execution CSV export works
+[ ] JSON restore works
+[ ] PWA assets load
+[ ] Existing 2.0 functionality remains available

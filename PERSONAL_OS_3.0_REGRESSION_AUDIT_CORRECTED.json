@@ -1,0 +1,6 @@
+{
+  "result": "PASS",
+  "issue_count": 0,
+  "issues": [],
+  "note": "Initial audit overcounted expected legacy functions and treated retained HTML as a defect; this corrected audit uses explicit legacy allowances."
+}

@@ -1,0 +1,27 @@
+PERSONAL OS 2.3 TEST PLAN
+
+PROGRAM ENGINE
+[ ] Program definitions install
+[ ] Program -> week -> day lookup works
+[ ] Current week resolves from selected date
+[ ] 12-week strength map renders
+[ ] 12-week running map renders
+[ ] 12-week nutrition map renders
+[ ] 8-week education map renders
+
+EXECUTION
+[ ] Strength dialog consumes program exercises/sets/reps
+[ ] Strength records save with program context
+[ ] Run dialog consumes program target
+[ ] Run record saves with program context
+[ ] Meal dialog consumes program meals
+[ ] Meal completion saves with program context
+[ ] Study dialog consumes program topic/minutes
+[ ] Study completion saves with program context
+
+RELIABILITY REGRESSION
+[ ] 2.2 schema migration remains available
+[ ] Validation remains available
+[ ] Backup/export remains available
+[ ] Restore remains available
+[ ] Existing execution records remain readable

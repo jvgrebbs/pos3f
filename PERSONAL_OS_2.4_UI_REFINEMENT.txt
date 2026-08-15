@@ -1,0 +1,17 @@
+PERSONAL OS 2.4 UI REFINEMENT
+
+Implemented:
+- Today is now a planner-style summary view.
+- Today shows scheduled activities, completion summary, program week, and quick actions.
+- Fitness button shows only Fitness-focused information.
+- Nutrition button shows only Nutrition-focused information.
+- Education button shows only Education-focused information.
+- Tasks button shows only Tasks-focused information.
+- Progress button shows only Progress-focused information.
+- Legacy mixed domain sections are hidden when a focused view is selected.
+- Underlying 2.4 Program, Execution, Adaptive, Reliability, Backup and Restore engines remain intact.
+- Mobile layout adapts the planner and domain cards for smaller screens.
+
+Design intent:
+Today = "What does my day look like?"
+Domain pages = "Work on this domain only."

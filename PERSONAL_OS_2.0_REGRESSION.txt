@@ -1,0 +1,51 @@
+PERSONAL OS 2.0 REGRESSION CHECKLIST
+
+Core
+[ ] App loads without Loading state
+[ ] Today / Plan / Execute / Progress / Data navigation works
+[ ] Date +/- navigation works
+[ ] Today returns current date
+[ ] Master calendar selects date
+
+Data
+[ ] IndexedDB initializes
+[ ] Legacy POS records migrate
+[ ] Quick entry writes IndexedDB
+[ ] Full 2.0 export downloads
+
+Execution
+[ ] Planned items appear
+[ ] Actual completion states appear
+[ ] Actual vs planned percentage updates
+[ ] Next Up updates
+
+Fitness
+[ ] Weight quick entry
+[ ] Strength quick entry
+[ ] Running quick entry
+[ ] Strength progression summary
+
+Nutrition
+[ ] Meal completion
+[ ] Dinner changes by week
+[ ] Grocery calculation displays
+
+Education
+[ ] Network+ week matches selected date
+[ ] Study completion
+
+Household
+[ ] Weekday household schedule
+[ ] Wednesday sweep
+[ ] Saturday sweep/mop
+
+PWA
+[ ] Service worker registers
+[ ] Offline shell loads
+[ ] Install prompt/status works
+
+Backup/Sync
+[ ] Existing JSON backup works
+[ ] Existing restore works
+[ ] Sync queue remains available
+[ ] No credentials embedded

@@ -1,0 +1,29 @@
+PERSONAL OS 2.2 CANONICAL DATA MODEL
+
+Every application record may contain:
+
+id
+domain
+type
+date
+planned
+actual
+status
+metrics
+updatedAt
+schemaVersion
+
+System records:
+- pos22:meta
+- pos22:snapshot
+
+Execution types:
+- executionRecord
+- strengthSet
+- run
+- bodyMetric
+- mealCompletion
+- studySession
+- taskCompletion
+
+The model is intentionally extensible for the 2.3 Program Engine.

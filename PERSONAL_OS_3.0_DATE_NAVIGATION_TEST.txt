@@ -1,0 +1,16 @@
+DATE NAVIGATION REGRESSION TEST
+
+[ ] Today view shows date navigator
+[ ] DAY mode shows weekday
+[ ] DATE mode shows calendar date
+[ ] DAY -> DATE switches immediately
+[ ] DATE -> DAY switches immediately
+[ ] Previous day changes selected date
+[ ] Next day changes selected date
+[ ] TODAY returns to current system date
+[ ] TODAY is disabled/highlighted while already on today
+[ ] Selected date persists after reload
+[ ] Program week changes with selected date
+[ ] Daily planner changes with selected date
+[ ] Fitness/Nutrition/Education/Tasks state follows selected date
+[ ] Historical data is not modified by navigation

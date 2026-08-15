@@ -1,0 +1,47 @@
+PERSONAL OS 1.0 INTEGRATION REGRESSION CHECKLIST
+
+Navigation
+[ ] Today opens
+[ ] Plan opens
+[ ] Execute opens
+[ ] Progress opens
+[ ] Data opens
+
+Calendar
+[ ] Previous day works
+[ ] Next day works
+[ ] Today works
+[ ] Week number is correct
+[ ] Master calendar selects dates
+[ ] Selected date refreshes integrated views
+
+Planning
+[ ] Meals appear
+[ ] Meal prep appears except Wednesday
+[ ] Household schedule appears
+[ ] Network+ appears during first 8 weeks
+[ ] Saturday strength appears 0800
+[ ] Other fitness markers appear
+
+Execution
+[ ] Planned items appear
+[ ] Completed states appear
+[ ] Execution percentage updates
+
+Progress
+[ ] Body weight summary appears
+[ ] Strength volume summary appears
+[ ] Running distance summary appears
+[ ] Network+ progress appears
+[ ] Nutrition progress appears
+
+Data
+[ ] Backup status appears
+[ ] Sync queue count appears
+[ ] Existing backup controls remain functional
+
+PWA
+[ ] Application loads
+[ ] Offline shell loads
+[ ] Service worker registers
+[ ] No perpetual Loading state

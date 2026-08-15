@@ -1,0 +1,37 @@
+GLOBAL DATE / ACTION REGRESSION TEST
+
+Navigation:
+[ ] Today opens
+[ ] Fitness opens
+[ ] Nutrition opens
+[ ] Education opens
+[ ] Tasks opens
+[ ] Progress opens
+[ ] Start menu opens
+[ ] Workout modal opens
+[ ] Data modal opens
+[ ] Program modal opens
+
+Date:
+[ ] DAY mode works
+[ ] DATE mode works
+[ ] Previous day works
+[ ] Next day works
+[ ] TODAY works
+[ ] Selected date persists
+[ ] Selected date is visible on every domain
+[ ] Fitness follows selected date
+[ ] Nutrition follows selected date
+[ ] Education follows selected date
+[ ] Tasks follows selected date
+[ ] Progress follows selected date
+[ ] Strength log follows selected date
+[ ] Legacy execution functions use selected date
+[ ] Legacy calendar date selection updates all domains
+
+Overlay regression:
+[ ] Workout overlay can open
+[ ] Program overlay can open
+[ ] Data overlay can open
+[ ] Adaptive overlay can open
+[ ] Restore/backup controls remain reachable

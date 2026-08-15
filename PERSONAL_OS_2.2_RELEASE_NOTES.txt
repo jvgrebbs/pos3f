@@ -1,0 +1,24 @@
+PERSONAL OS 2.2 — RELIABILITY & DATA
+
+Implemented:
+- Schema versioning (v3) on canonical records.
+- Idempotent, non-destructive migration routine.
+- Record validation and duplicate/missing-field checks.
+- Automatic local snapshots after meaningful writes.
+- Manual local snapshot creation.
+- JSON backup export.
+- JSON backup restore with format validation.
+- Backup hash for restore provenance.
+- Data health center.
+- Migration / validation center.
+- IndexedDB remains the canonical source of truth.
+- Existing 2.1 execution records remain compatible.
+- Cloud synchronization intentionally remains deferred.
+
+Architecture:
+UI
+ -> Application / Execution Engine
+ -> Versioned Canonical Data Layer
+ -> IndexedDB
+ -> Local Snapshot / Export / Restore
+ -> Future Sync (3.0)

@@ -1,0 +1,17 @@
+PERSONAL OS 2.4 — UI CLEAN PASS
+
+Implemented:
+1. Simplified primary navigation to Today / Fitness / Nutrition / Education / Tasks / Progress.
+2. Fixed mobile bottom navigation.
+3. Today redesigned as a planner/agenda view.
+4. Today shows planned activities, status, summary KPIs, and Start Next Activity.
+5. Domain pages show only their relevant information.
+6. Progressive disclosure: details are summarized until execution is opened.
+7. One primary action per domain.
+8. Management controls (Programs/Data) separated from daily execution.
+9. Universal + Start menu added for quick execution.
+10. Standardized status language and visual treatment.
+11. Progress simplified to performance/adherence.
+12. Consistent terminology and page structure.
+13. Responsive mobile layout.
+14. Existing 2.4 engines remain intact behind the cleaner presentation.

@@ -1,0 +1,19 @@
+PERSONAL OS 2.0 UI REGRESSION
+
+[ ] Today is the default view
+[ ] Today shows current date
+[ ] Today shows execution percentage
+[ ] Next Up renders
+[ ] Daily plan renders
+[ ] Bottom navigation works on mobile
+[ ] Top navigation works on desktop
+[ ] Plan weekly calendar renders
+[ ] Calendar date selection works
+[ ] Execute shows tasks
+[ ] Execute quick-entry controls work
+[ ] Progress renders
+[ ] Data/Backup remains reachable through More
+[ ] Notifications remain reachable
+[ ] Existing date +/- controls still work
+[ ] PWA loads offline
+[ ] Existing data engines remain available

@@ -1,0 +1,19 @@
+PERSONAL OPERATING SYSTEM
+PHASE 9 — LOCAL BACKUP / DATA PERSISTENCE
+Release: v0.9
+
+Implemented:
+- Local backup snapshot.
+- JSON export.
+- JSON restore.
+- Backup metadata and last-backup display.
+- Record count.
+- Restore confirmation.
+- Backup is isolated from application initialization.
+- No cloud synchronization.
+- Existing Phase 1–8 functionality preserved.
+
+Backup architecture:
+Application localStorage -> Backup JSON -> user-selected storage location.
+
+Cloud synchronization is intentionally deferred to a later phase.

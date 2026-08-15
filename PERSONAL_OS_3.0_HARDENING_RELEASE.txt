@@ -1,0 +1,24 @@
+PERSONAL OS 3.0 — HARDENING RELEASE
+
+Implemented:
+1. Runtime-oriented health diagnostics surface.
+2. Data validation checks for normalized execution records.
+3. Safe state snapshots.
+4. Snapshot export to JSON backup.
+5. Non-destructive recovery snapshot preparation.
+6. Formal schemaVersion=3 snapshot structure.
+7. Personal OS event bus.
+8. Activity-start lifecycle event.
+9. Workout-session lifecycle event.
+10. Global search over normalized execution records.
+11. Search keyboard shortcut: Ctrl/Cmd+K.
+12. State/date/data diagnostics.
+13. Startup snapshot creation.
+14. Startup health check.
+15. Service-worker support detection.
+16. Local storage availability check.
+17. Clear separation between recovery preparation and destructive restore.
+18. Existing 3.0 state/program/adaptive/data layers retained.
+
+Hardening principle:
+No automatic destructive recovery or automatic program mutation is performed.

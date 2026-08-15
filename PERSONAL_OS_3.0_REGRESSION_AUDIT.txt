@@ -1,0 +1,149 @@
+PERSONAL OS 3.0 — REGRESSION / INTEGRATION AUDIT
+
+Scope: 3.0 Date Navigation Fixed build
+
+RESULT: 131 issue(s) detected.
+- [STRUCTURE] single_html_entry
+- [REFERENCE] pos21CloseData(
+- [REFERENCE] pos21CloseDrawer(
+- [REFERENCE] pos21CloseModal(
+- [REFERENCE] pos21CompleteMeal(
+- [REFERENCE] pos21CompleteStudy(
+- [REFERENCE] pos21CompleteTask(
+- [REFERENCE] pos21Completion(
+- [REFERENCE] pos21Date(
+- [REFERENCE] pos21ExportExecutionCSV(
+- [REFERENCE] pos21Id(
+- [REFERENCE] pos21Now(
+- [REFERENCE] pos21OpenCalendar(
+- [REFERENCE] pos21OpenData(
+- [REFERENCE] pos21OpenExecution(
+- [REFERENCE] pos21OpenMeal(
+- [REFERENCE] pos21OpenRun(
+- [REFERENCE] pos21OpenStrength(
+- [REFERENCE] pos21OpenStudy(
+- [REFERENCE] pos21OpenTask(
+- [REFERENCE] pos21OpenWeight(
+- [REFERENCE] pos21Progress(
+- [REFERENCE] pos21Quick(
+- [REFERENCE] pos21ReadExecutions(
+- [REFERENCE] pos21RefreshUI(
+- [REFERENCE] pos21RenderCalendar(
+- [REFERENCE] pos21RenderData(
+- [REFERENCE] pos21RestorePrompt(
+- [REFERENCE] pos21SaveMealUI(
+- [REFERENCE] pos21SaveRun(
+- [REFERENCE] pos21SaveRunUI(
+- [REFERENCE] pos21SaveStrengthSet(
+- [REFERENCE] pos21SaveStudyUI(
+- [REFERENCE] pos21SaveTaskUI(
+- [REFERENCE] pos21SaveWeight(
+- [REFERENCE] pos21SaveWeightUI(
+- [REFERENCE] pos21SaveWorkout(
+- [REFERENCE] pos21SelectDate(
+- [REFERENCE] pos21WeekStart(
+- [REFERENCE] pos21WriteExecution(
+- [REFERENCE] pos22All(
+- [REFERENCE] pos22Canonicalize(
+- [REFERENCE] pos22ChooseRestore(
+- [REFERENCE] pos22CloseBackup(
+- [REFERENCE] pos22CloseData(
+- [REFERENCE] pos22CloseMigration(
+- [REFERENCE] pos22CreateSnapshot(
+- [REFERENCE] pos22Escape(
+- [REFERENCE] pos22ExportSnapshot(
+- [REFERENCE] pos22GetMeta(
+- [REFERENCE] pos22Hash(
+- [REFERENCE] pos22Health(
+- [REFERENCE] pos22Migrate(
+- [REFERENCE] pos22Now(
+- [REFERENCE] pos22OpenData(
+- [REFERENCE] pos22OpenMigration(
+- [REFERENCE] pos22Put(
+- [REFERENCE] pos22RenderData(
+- [REFERENCE] pos22RestoreFile(
+- [REFERENCE] pos22RunMigration(
+- [REFERENCE] pos22RunValidation(
+- [REFERENCE] pos22SaveMeta(
+- [REFERENCE] pos22ScheduleSnapshot(
+- [REFERENCE] pos22Validate(
+- [REFERENCE] pos23Activity(
+- [REFERENCE] pos23ActivityHtml(
+- [REFERENCE] pos23Close(
+- [REFERENCE] pos23CompleteMeal(
+- [REFERENCE] pos23ExerciseRows(
+- [REFERENCE] pos23InstallPrograms(
+- [REFERENCE] pos23Iso(
+- [REFERENCE] pos23JumpWeek(
+- [REFERENCE] pos23MealPlanForToday(
+- [REFERENCE] pos23MealRow(
+- [REFERENCE] pos23Open(
+- [REFERENCE] pos23Program(
+- [REFERENCE] pos23ProgramCalendar(
+- [REFERENCE] pos23ProgramRecords(
+- [REFERENCE] pos23ProgramsForDate(
+- [REFERENCE] pos23Render(
+- [REFERENCE] pos23RunPlanForToday(
+- [REFERENCE] pos23RunRow(
+- [REFERENCE] pos23SaveProgramStrength(
+- [REFERENCE] pos23SaveRun(
+- [REFERENCE] pos23SaveStudy(
+- [REFERENCE] pos23SelectProgram(
+- [REFERENCE] pos23StrengthPlanForToday(
+- [REFERENCE] pos23StudyPlanForToday(
+- [REFERENCE] pos23StudyRow(
+- [REFERENCE] pos23TodayPlan(
+- [REFERENCE] pos23Week(
+- [REFERENCE] pos24Adherence(
+- [REFERENCE] pos24ApplyRecommendationPreview(
+- [REFERENCE] pos24BuildRunRecommendation(
+- [REFERENCE] pos24BuildStrengthRecommendations(
+- [REFERENCE] pos24Clamp(
+- [REFERENCE] pos24Close(
+- [REFERENCE] pos24Date(
+- [REFERENCE] pos24Executions(
+- [REFERENCE] pos24ExerciseHistory(
+- [REFERENCE] pos24NextTarget(
+- [REFERENCE] pos24Open(
+- [REFERENCE] pos24Pct(
+- [REFERENCE] pos24RecommendationForToday(
+- [REFERENCE] pos24Render(
+- [REFERENCE] pos24RoundWeight(
+- [REFERENCE] pos24RunRecommendation(
+- [REFERENCE] pos24SaveRecommendation(
+- [REFERENCE] pos24StrengthHistory(
+- [REFERENCE] pos24StrengthRecommendation(
+- [REFERENCE] pos2All(
+- [REFERENCE] pos2DataStatus(
+- [REFERENCE] pos2Delete(
+- [REFERENCE] pos2DomainSummary(
+- [REFERENCE] pos2ExportFullDatabase(
+- [REFERENCE] pos2Get(
+- [REFERENCE] pos2InitDB(
+- [REFERENCE] pos2MetaGet(
+- [REFERENCE] pos2MetaPut(
+- [REFERENCE] pos2OpenDB(
+- [REFERENCE] pos2Put(
+- [REFERENCE] pos30CloseStart(
+- [REFERENCE] pos30GoToday(
+- [REFERENCE] pos30NextDay(
+- [REFERENCE] pos30OpenData(
+- [REFERENCE] pos30OpenPrograms(
+- [REFERENCE] pos30PreviousDay(
+- [REFERENCE] pos30SetDateMode(
+- [REFERENCE] pos30Show(
+- [REFERENCE] pos30Start(
+- [REFERENCE] pos30StartNext(
+
+AUDIT AREAS
+- 3.0 shell and state engine presence
+- Date engine and navigation wiring
+- Today return control
+- PWA manifest/service worker assets
+- Duplicate DOM IDs
+- Inline UI onclick references
+- Cross-version legacy engine references
+- Date boundary arithmetic
+
+IMPORTANT
+This is a static/integration audit of the packaged HTML/JS. A full browser runtime test still requires loading the PWA under a real web origin because browser APIs such as localStorage, IndexedDB, service workers, and PWA installation are origin-dependent.

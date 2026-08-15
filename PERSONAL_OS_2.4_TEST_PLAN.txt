@@ -1,0 +1,25 @@
+PERSONAL OS 2.4 TEST PLAN
+
+STRENGTH ADAPTATION
+[ ] Full programmed completion produces increase recommendation
+[ ] Near completion produces repeat recommendation
+[ ] Repeated underperformance produces reduction recommendation
+[ ] Recommendation includes reason
+[ ] Recommendation is stored separately from program definition
+[ ] Program definition is not silently mutated
+
+RUNNING ADAPTATION
+[ ] Completed duration produces progression recommendation
+[ ] Short session produces repeat recommendation
+[ ] Recommendation contains next duration and reason
+
+ADHERENCE
+[ ] Seven-day execution rate calculates
+[ ] Missing execution does not create false completion
+
+REGRESSION
+[ ] 2.3 program lookup works
+[ ] Program-derived execution still works
+[ ] 2.2 backup/restore remains available
+[ ] Schema remains versioned
+[ ] PWA assets remain available
