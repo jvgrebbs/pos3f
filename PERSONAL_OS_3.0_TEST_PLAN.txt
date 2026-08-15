@@ -1,0 +1,38 @@
+PERSONAL OS 3.0 TEST PLAN
+
+STATE ENGINE
+[ ] State snapshot generated for selected date
+[ ] Program week resolved
+[ ] Daily planned count resolved
+[ ] Daily completion count resolved
+[ ] Seven-day adherence resolved
+[ ] Domain state resolved
+[ ] Current/in-progress record detected
+[ ] State snapshot persists
+
+TODAY COMMAND CENTER
+[ ] Planner renders
+[ ] Current activity highlighted
+[ ] Start Next works
+[ ] Domain execution counts visible
+[ ] Programs/Data remain management controls
+
+DOMAIN WORKSPACES
+[ ] Fitness shows fitness state only
+[ ] Nutrition shows nutrition state only
+[ ] Education shows education state only
+[ ] Tasks shows task state only
+[ ] Progress shows plan-vs-actual/adherence
+
+NAVIGATION
+[ ] Today/Fitness/Nutrition/Education/Tasks/Progress
+[ ] Day/date navigation remains compatible
+[ ] Today return control remains compatible
+[ ] Global Start menu works
+
+REGRESSION
+[ ] Adaptive Engine opens
+[ ] Program Engine opens
+[ ] Data/backup UI opens
+[ ] Existing execution logging remains available
+[ ] PWA manifest/service worker load

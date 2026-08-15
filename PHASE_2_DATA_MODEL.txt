@@ -1,0 +1,25 @@
+PERSONAL OPERATING SYSTEM
+PHASE 2 — APPLICATION DATA MODEL
+Release: v0.2
+
+Purpose:
+Create a stable normalized application data model without changing the
+working Phase 1 UI/storage behavior.
+
+Namespaces:
+- planning: fitness, running, nutrition, household, education
+- execution: daily, strength, running, meals, chores, education
+- userData: bodyMetrics, workoutResults, runningResults, completion, notes
+- system: settings, calendar, schema
+
+The normalized model is intentionally isolated from the current localStorage
+application state. Later phases can migrate individual features one at a time
+without breaking the core application.
+
+Acceptance:
+1. Phase 1 dashboard behavior remains intact.
+2. Date navigation remains intact.
+3. Strength logger remains intact.
+4. Existing data remains intact.
+5. Data Model status reports v0.2.
+6. Schema metadata is created only if absent.

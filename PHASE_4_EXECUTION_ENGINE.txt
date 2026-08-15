@@ -1,0 +1,12 @@
+PERSONAL OPERATING SYSTEM
+PHASE 4 — EXECUTION ENGINE
+Release: v0.4
+
+Implemented:
+- Daily execution layer for planned vs actual.
+- Planned / Complete / Execution percentage.
+- Complete, Modify, and Skip states.
+- Execution data stored by date.
+- Date navigation refreshes the execution view.
+- Existing Phase 1–3 functionality preserved.
+- No cloud backup or external synchronization introduced.

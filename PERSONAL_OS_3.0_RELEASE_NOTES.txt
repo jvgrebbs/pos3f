@@ -1,0 +1,25 @@
+PERSONAL OS 3.0 — RELEASE NOTES
+
+Major milestone:
+Personal OS 3.0 introduces the Unified State Engine.
+
+New:
+- Personal OS current-state synthesis.
+- Today command center.
+- Cross-domain state.
+- Seven-day execution state.
+- Plan-vs-actual summary.
+- Unified activity model at the UI/action layer.
+- State snapshots stored locally and in the existing data layer when available.
+- Current/in-progress state detection.
+- Cleaner separation of Program, Schedule, Execution, History, State and Adaptation.
+- Unified global Start control.
+- 3.0-focused navigation and command center.
+
+Retained:
+- Graphite + Electric Blue theme.
+- Day/Date navigation and Today return control.
+- 2.4 Adaptive Engine.
+- 2.3 Program Engine.
+- 2.2 data/backup architecture.
+- PWA support.

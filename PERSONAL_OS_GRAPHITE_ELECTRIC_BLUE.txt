@@ -1,0 +1,25 @@
+PERSONAL OS — GRAPHITE + ELECTRIC BLUE THEME
+
+Primary:
+- Graphite background: #101317
+- Surface: #181d23
+- Secondary surface: #20262e
+- Borders: #303842
+- Primary text: #f2f6fa
+- Secondary text: #9aa6b2
+- Electric blue accent: #19a7ff
+- Blue hover: #4dbbff
+
+Semantic status:
+- Success: #35c878
+- Warning: #f2b84b
+- Danger: #ff5f69
+
+Design intent:
+- Graphite is the dominant canvas.
+- Electric blue is reserved for active navigation, primary actions,
+  focus states, progress and selected/current context.
+- Status colors remain semantic and restrained.
+- Cards use layered graphite surfaces instead of white panels.
+- The theme applies to both the clean UI and the underlying execution
+  dialogs so the application remains visually consistent.

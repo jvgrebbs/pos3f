@@ -1,0 +1,27 @@
+PERSONAL OPERATING SYSTEM
+PHASE 1 — CORE APPLICATION STABILIZATION
+Release: v0.1 Core
+
+Core acceptance checks:
+1. Dashboard opens without a perpetual Loading state.
+2. Selected date renders correctly.
+3. Previous/next day arrows change the selected date.
+4. Today returns to the device's current date.
+5. Week number and 12-week campaign dates render correctly.
+6. Execution schedule updates when the date changes.
+7. Daily tasks update when the date changes.
+8. Strength Workout Log is visible on applicable strength days.
+9. Strength date controls render and move between strength days.
+10. Set-by-set weight/reps inputs are available.
+11. Existing localStorage-based workout/task data remains intact.
+12. Excel strength export remains available.
+13. PWA service worker is isolated under the Phase 1 cache name.
+
+Phase 1 deliberately does NOT include:
+- IndexedDB
+- Cloud backup
+- OneDrive
+- Supabase
+- Automatic cloud synchronization
+
+Those belong to later phases.

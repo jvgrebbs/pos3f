@@ -1,0 +1,22 @@
+PERSONAL OPERATING SYSTEM
+PHASE 6 — EDUCATION SYSTEM
+Release: v0.6
+
+Implemented:
+- 8-week Network+ certification plan.
+- Start date: August 17, 2026.
+- One-hour daily study framework.
+- Weekly topic progression:
+  1. Networking Fundamentals
+  2. OSI & TCP/IP
+  3. IP Addressing & Subnetting
+  4. Routing & Switching
+  5. Wireless & Network Services
+  6. Network Security
+  7. Troubleshooting & Operations
+  8. Review & Exam Preparation
+- Topic completion tracking.
+- Study-hour progression.
+- Date/week synchronization.
+- Existing Phase 1–5 functionality preserved.
+- No cloud backup or external synchronization introduced.

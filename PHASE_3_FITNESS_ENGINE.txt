@@ -1,0 +1,16 @@
+PERSONAL OPERATING SYSTEM
+PHASE 3 — FITNESS ENGINE
+Release: v0.3
+
+Implemented:
+- Strength performance data model: exercise -> sets -> weight/reps/volume.
+- Running performance data model: date -> distance/duration/RPE/pace.
+- Body metrics data model: date -> weight.
+- Fitness engine UI with Strength / Running / Body Metrics tabs.
+- Strength set logging with volume calculation.
+- Running logging with pace calculation.
+- Body-weight logging.
+- Current week and aggregate fitness statistics.
+- Existing Phase 2/Phase 1 UI remains the core execution interface.
+
+No cloud backup or IndexedDB is included.

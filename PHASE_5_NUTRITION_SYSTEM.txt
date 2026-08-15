@@ -1,0 +1,16 @@
+PERSONAL OPERATING SYSTEM
+PHASE 5 — NUTRITION SYSTEM
+Release: v0.5
+
+Implemented:
+- Daily breakfast, lunch, and dinner assignment.
+- Breakfast uses the fixed low-cost/easy meal.
+- Lunch uses a small rotation.
+- Dinner uses a 12-week rotation with varied dinners.
+- Dinner recipes are constrained to quick meals (30 minutes or less).
+- Daily meal completion tracking.
+- Weekly grocery "What to Buy" list.
+- Grocery item completion tracking.
+- Date and week navigation refreshes the nutrition view.
+- Existing Phase 1–4 functionality preserved.
+- No cloud backup or external synchronization introduced.

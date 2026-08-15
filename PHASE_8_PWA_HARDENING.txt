@@ -1,0 +1,18 @@
+PERSONAL OPERATING SYSTEM
+PHASE 8 — PWA HARDENING / OFFLINE OPERATION
+Release: v0.8
+
+Implemented:
+- Offline/online connection status.
+- Service worker registration status.
+- Installability status.
+- Install Personal OS button when browser supports installation prompt.
+- Cache-first local application shell.
+- Runtime caching of same-origin GET resources.
+- Offline fallback to the cached application shell.
+- Versioned service-worker cache with cleanup of prior phase caches.
+- Existing Phase 1–7 application logic preserved.
+- No backup/cloud synchronization introduced.
+
+Data remains local browser storage. This phase is about application availability,
+not cloud persistence.

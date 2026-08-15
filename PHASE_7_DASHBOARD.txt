@@ -1,0 +1,14 @@
+PERSONAL OPERATING SYSTEM
+PHASE 7 — DASHBOARD / TODAY / NEXT UP
+Release: v0.7
+
+Implemented:
+- Today execution dashboard.
+- Date-aware Today view.
+- Week indicator.
+- Execution percentage and progress bar.
+- Next Up identification.
+- Today timeline with planned/completed states.
+- Dashboard refreshes with date navigation.
+- Existing Phase 1–6 functionality preserved.
+- No backup/cloud changes introduced.
